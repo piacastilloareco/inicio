@@ -1,4 +1,7 @@
 import streamlit as st
+from flask import Flask
+app = Flask(__name__)
+
 
 # Configuración de la página
 st.set_page_config(page_title="Gestor de Servicios", page_icon="🌐", layout="centered")
