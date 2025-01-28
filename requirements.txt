@@ -1,2 +1,4 @@
 gunicorn
 flask==2.2.5
+streamlit==1.23.1
+
